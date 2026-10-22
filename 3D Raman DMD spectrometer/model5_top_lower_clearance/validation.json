@@ -1,0 +1,31 @@
+{
+  "source": "model5_aperture_split",
+  "lower_reference": "support_bottom_half_new.step",
+  "lower_modified": false,
+  "clearance_offset_mm": 0.25,
+  "clearance_recess_depth_mm": 3.25,
+  "DMD_minimum_clearance_before_STEP_mm": 0.2499999999838018,
+  "main_minimum_clearance": "Nominal construction offset; full distance calculation not completed",
+  "interference_verification": "Before STEP export, the lower lip had zero volume outside the subtracted clearance cutter",
+  "original_projection_depth_mm": 3.0,
+  "mounting_hole_axes_and_split": "Unchanged",
+  "STEP_precision_note": "Main-part STEP healing changes volume by about 2.5 ppm and leaves a tolerant junction 0.0061 mm below the nominal mating plane; the original 3 mm projecting ribs are removed.",
+  "parts": [
+    {
+      "part": "Top_DMD_aperture",
+      "valid_single_closed_solid": true,
+      "volume_mm3": 15545.94865210159,
+      "STEP_volume_delta_mm3": 8.33979356684722e-07,
+      "STEP_volume_delta_ppm": 5.364608975002887e-05,
+      "minimum_X_mm": -1.0269294582933338e-05
+    },
+    {
+      "part": "Top_remaining",
+      "valid_single_closed_solid": true,
+      "volume_mm3": 154298.1164150865,
+      "STEP_volume_delta_mm3": 0.38612106782966293,
+      "STEP_volume_delta_ppm": 2.5024416567495735,
+      "minimum_X_mm": -0.00607198307122502
+    }
+  ]
+}

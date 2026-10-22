@@ -1,0 +1,72 @@
+
+import sys, os, json, numpy as np
+from scipy.optimize import minimize_scalar
+sys.path.insert(0, os.path.abspath('.'))
+from v2.engine.tracer import OpticalSystem
+from v2.engine.ray import Ray
+
+data = json.load(open('teamwork_yz_spectrometer/spectrometer_yz_1064_final.json'))
+
+# Widen apertures for optimization
+data['surfaces'][6]['semi_diameter'] = 5.0
+data['surfaces'][-1]['semi_diameter'] = 5.0
+
+# 1. Optimize Sample to Slit Focus
+def obj_sample(t):
+    data['surfaces'][0]['thickness'] = t
+    json.dump(data, open('t_opt.json', 'w'))
+    sys_opt = OpticalSystem.from_json('t_opt.json')
+    sys_opt._update_accumulated_positions()
+    r0 = Ray(pos=sys_opt.surfaces[0].global_origin, dir=np.array([0., 0.0, 1.0]), wavelength=1.225)
+    r1 = Ray(pos=sys_opt.surfaces[0].global_origin, dir=np.array([0., 0.01, 0.99995]), wavelength=1.225)
+    tr0 = sys_opt.trace_ray(r0)
+    tr1 = sys_opt.trace_ray(r1)
+    if tr1.vignetted and tr1.vignetted_surface <= 6: return 1e6
+    return np.abs(tr1.history[6]['y_local'] - tr0.history[6]['y_local'])
+
+res_sample = minimize_scalar(obj_sample, bounds=(14.0, 17.0), method='bounded')
+print('t_sample =', res_sample.x)
+data['surfaces'][0]['thickness'] = res_sample.x
+
+# 2. Optimize Slit to Collimator for Collimation
+def obj_collimator(t):
+    data['surfaces'][6]['thickness'] = t
+    json.dump(data, open('t_opt.json', 'w'))
+    sys_opt = OpticalSystem.from_json('t_opt.json')
+    sys_opt._update_accumulated_positions()
+    r0 = Ray(pos=sys_opt.surfaces[0].global_origin, dir=np.array([0., 0.0, 1.0]), wavelength=1.225)
+    r1 = Ray(pos=sys_opt.surfaces[0].global_origin, dir=np.array([0., 0.01, 0.99995]), wavelength=1.225)
+    tr0 = sys_opt.trace_ray(r0)
+    tr1 = sys_opt.trace_ray(r1)
+    if tr1.vignetted and tr1.vignetted_surface <= 12: return 1e6
+    return np.abs(tr1.history[12]['dir_y'] - tr0.history[12]['dir_y'])
+
+res_col = minimize_scalar(obj_collimator, bounds=(15.0, 30.0), method='bounded')
+print('t_slit_collimator =', res_col.x)
+data['surfaces'][6]['thickness'] = res_col.x
+
+# 3. Optimize Focusing to DMD
+foc_s3_idx = next(i for i, s in enumerate(data['surfaces']) if 'Focusing' in s.get('name','') and 'S3' in s.get('name',''))
+dmd_idx = next(i for i, s in enumerate(data['surfaces']) if 'DMD' in s.get('name',''))
+
+def obj_focus(t):
+    data['surfaces'][foc_s3_idx]['thickness'] = t
+    json.dump(data, open('t_opt.json', 'w'))
+    sys_opt = OpticalSystem.from_json('t_opt.json')
+    sys_opt._update_accumulated_positions()
+    r0 = Ray(pos=sys_opt.surfaces[0].global_origin, dir=np.array([0., 0.0, 1.0]), wavelength=1.225)
+    r1 = Ray(pos=sys_opt.surfaces[0].global_origin, dir=np.array([0., 0.01, 0.99995]), wavelength=1.225)
+    tr0 = sys_opt.trace_ray(r0)
+    tr1 = sys_opt.trace_ray(r1)
+    if len(tr1.history) <= dmd_idx: return 1e6
+    return np.abs(tr1.history[dmd_idx]['y_local'] - tr0.history[dmd_idx]['y_local'])
+
+res_foc = minimize_scalar(obj_focus, bounds=(30.0, 60.0), method='bounded')
+print('t_focus =', res_foc.x)
+data['surfaces'][foc_s3_idx]['thickness'] = res_foc.x
+
+data['surfaces'][6]['semi_diameter'] = 0.1
+data['surfaces'][-1]['semi_diameter'] = 0.4
+with open('teamwork_yz_spectrometer/spectrometer_yz_1064_final.json', 'w') as f:
+    json.dump(data, f, indent=4)
+

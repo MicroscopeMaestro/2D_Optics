@@ -1,0 +1,37 @@
+========================================================================================
+                  ZEMAX OPTICSTUDIO SPECTROMETER ANALYSIS REPORT
+                     Spectrometer Quality & Resolution Suite
+========================================================================================
+  Collimator Focal Length (EFL):         100.000 mm   |  F-Number:  F/3.94
+  Camera / Focusing Focal Length:        100.000 mm   |  F-Number:  F/1.97
+  Diffraction Grating Density:             600.0 l/mm |  Order:     +1
+  Grating Angle of Incidence (alpha):      54.13 deg  |  Blaze:      0.000 um
+  Entrance Slit Dimensions:              25.0 um (W) x 1.00 mm (H)
+  Input Numerical Aperture (NA):           0.120        |  Etendue:    0.00113 mm^2*sr
+  Detector Pixel Format:               2048 px @  14.0 um (Span: 28.67 mm)
+----------------------------------------------------------------------------------------
+  SPECTRAL RESOLUTION & DISPERSION SUMMARY:
+  Operating Spectral Range:             785.0 nm to   880.0 nm (Band:   95.0 nm)
+  Physical Detector Dispersion Span:       9.644 mm
+  Reciprocal Linear Dispersion:             9.88 nm/mm (Mean)
+  Effective Spectral Resolution:           3.337 nm (Mean) | Best: 3.181 nm | Worst: 3.519 nm
+  Resolving Power (R = lambda/d_lam):      249.2      | Peak:   250.7
+  End-to-End Total Throughput:              21.2 %    | Peak:  63.6 %
+  Smile Distortion (Slit Curvature):        0.00 um   | Keystone:   0.00 um
+  Detector Focal Plane Tilt:              -18.15 deg
+----------------------------------------------------------------------------------------
+  DESIGN VERIFICATION & ACCEPTANCE STATUS:
+  * Nyquist Pixel Sampling Criterion: [PASS] Compliant (FWHM >= 2 pixels)
+  * Clear Aperture Vignetting Status: [WARN] Partial Vignetting Detected
+  * Rayleigh Line Resolution Power:   [PASS] Resolving Power R > 50
+========================================================================================
+  DETAILED MULTI-WAVELENGTH PRESCRIPTION TABLE:
+  Wavelen   Beta    Y-Pos  dLam/ds  Slit_w  dLam_slit dLam_diff dLam_aber dLam_pix  Total_Res    R_Power  Throughput
+   (nm)    (deg)    (mm)   (nm/mm)   (um)     (nm)      (nm)      (nm)      (nm)      (nm)        (R)        (%)   
+----------------------------------------------------------------------------------------
+    785.0  -19.84  -0.149   10.19    15.6    0.159     0.030     3.164    0.285     3.181     246.8     63.6%
+    830.0  -18.20  -4.566    9.88    15.4    0.152     0.032     3.295    0.277     3.311     250.7      0.0%
+    880.0  -16.40  -9.792    9.57    15.3    0.146     0.034     3.506    0.268     3.519     250.0      0.0%
+========================================================================================
+                              END OF ZEMAX REPORT
+========================================================================================

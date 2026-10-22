@@ -1,0 +1,36 @@
+{
+  "source": "support_top_half_new.step",
+  "footprint_reference": "printing_model_5.stl",
+  "method": "Existing mirrored model 5 top; all 7925 refined vertices match mirrored STL vertices within 0.0001 mm",
+  "clearance_hole_diameter_mm": 4.5,
+  "insert_pocket_diameter_mm": 5.6,
+  "insert_depth_mm": 6.0,
+  "lap_clearance_mm": 0.25,
+  "joints": [
+    {
+      "Y": -79.0,
+      "Z": 130.0,
+      "insert_opening_X": 8.5,
+      "insert_bottom_X": 2.5
+    },
+    {
+      "Y": -32.0,
+      "Z": 117.0,
+      "insert_opening_X": 8.5,
+      "insert_bottom_X": 2.5
+    }
+  ],
+  "volumes_mm3": {
+    "top": 178619.68448649743,
+    "dmd": 13170.70126958289,
+    "main": 164535.08859586305
+  },
+  "checks": [
+    "Single valid closed solid per part",
+    "No overlapping material",
+    "Insert wall >= 1.7 mm",
+    "No added material in optical cavities",
+    "STEP round-trip validity and volume",
+    "Joining bores clear"
+  ]
+}

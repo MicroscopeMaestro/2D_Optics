@@ -1,0 +1,6 @@
+SldPart Test File Header - Mock SolidWorks Binary/ASCII Container
+Part Name: Sample Lens Element
+Units: MMGS
+Features: Extrude1, Revolve1 (Lens Contour R1=80.0, R2=-80.0, Th=5.0)
+Material: N-BK7
+GeomData: Axisymmetric profile along Z-axis.

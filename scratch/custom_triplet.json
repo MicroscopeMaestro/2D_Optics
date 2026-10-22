@@ -1,0 +1,33 @@
+{
+  "name": "CustomTriplet",
+  "surfaces": [
+    {
+      "name": "Tri_S1",
+      "radius": 40.0,
+      "thickness": 4.0,
+      "glass": "N-SK16",
+      "semi_diameter": 12.7
+    },
+    {
+      "name": "Tri_S2",
+      "radius": -30.0,
+      "thickness": 2.0,
+      "glass": "N-SF11",
+      "semi_diameter": 12.7
+    },
+    {
+      "name": "Tri_S3",
+      "radius": 30.0,
+      "thickness": 4.0,
+      "glass": "N-SK16",
+      "semi_diameter": 12.7
+    },
+    {
+      "name": "Tri_S4",
+      "radius": -50.0,
+      "thickness": 10.0,
+      "glass": "AIR",
+      "semi_diameter": 12.7
+    }
+  ]
+}

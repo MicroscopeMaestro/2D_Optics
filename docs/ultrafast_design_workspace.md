@@ -1,0 +1,11 @@
+# General ultrafast design workspace
+
+Use **File → New Ultrafast Design (800 nm)** to start a blank sequential optical design with a collimated source, one editable 800 nm primary wavelength, and the **Femtosecond Pulse** analysis selected. The 800 nm / 100 fs values are starting settings, not measurements or component calibrations. Add surfaces in the lens data editor, change the carrier in System Explorer and the pulse tab as needed, and run a trace. The 2D and 3D geometric rays use the configured system wavelengths; the pulse analysis independently samples the spectrum around its chosen carrier to calculate path-dependent dispersion and pulse width.
+
+**File → New Project** resets wavelength, source, pulse and viewer state to the ordinary general-optics defaults. Opening a saved project likewise restores its own settings, so a Raman project and an ultrafast project do not inherit each other's display or source configuration. Version-3 projects without 3D settings still load with default viewer choices.
+
+The 3D viewer's ray, label, stop, grid, opacity, aspect, detail, projection, coloring and camera-orientation settings are saved under `viewer_settings` in project JSON. The renderer remains instrument-independent; grating and DMD controls appear only when those components are present. Camera pan and zoom are transient navigation, not saved design parameters.
+
+The current sequential pulse analysis models spectral phase and pulse duration along traced rays. It is not a full wave-optics, nonlinear propagation, thermal or damage model. The separate two-photon and nonlinear-imaging workbenches require their own calibrated inputs for quantitative results.
+
+For spacing after a mirror, grating or DMD, use the **Air Space** surface type. Its thickness positions the following component along the outgoing reference frame, while each ray starts that segment at its actual mirror hit. It has no optical face or aperture. Legacy flat `AIR_after_*` entries are recognized when loading projects, preserving their indices and distances. Physical lens rear surfaces with AIR as their outgoing medium remain optical boundaries. Rays with no forward intersection with a physical surface are terminated with a geometry warning.

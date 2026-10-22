@@ -1,0 +1,66 @@
+{
+  "200um_height_2mm_beveled": {
+    "step_file": "external_slit_cartridge_200um_height_2mm.step",
+    "stl_file": "external_slit_cartridge_200um_height_2mm.stl",
+    "volume_mm3": 1279.2793235309064,
+    "bbox": [
+      32.0,
+      22.0,
+      2.0000000000000373
+    ],
+    "slit_aperture_mm": [
+      8.0,
+      0.2
+    ],
+    "mesh_points": 564,
+    "mesh_facets": 1128
+  },
+  "200um_standard_2mm_beveled": {
+    "step_file": "external_slit_cartridge_200um_2mm.step",
+    "stl_file": "external_slit_cartridge_200um_2mm.stl",
+    "volume_mm3": 1279.2793235309061,
+    "bbox": [
+      32.0,
+      22.0,
+      2.0000000000000373
+    ],
+    "slit_aperture_mm": [
+      0.2,
+      8.0
+    ],
+    "mesh_points": 564,
+    "mesh_facets": 1128
+  },
+  "200um_height_2mm_straight": {
+    "step_file": "external_slit_cartridge_200um_height_2mm_straight.step",
+    "stl_file": "external_slit_cartridge_200um_height_2mm_straight.stl",
+    "volume_mm3": 1353.3793235309065,
+    "bbox": [
+      32.0,
+      22.0,
+      2.0000000000000373
+    ],
+    "slit_aperture_mm": [
+      8.0,
+      0.2
+    ],
+    "mesh_points": 144,
+    "mesh_facets": 288
+  },
+  "200um_standard_2mm_straight": {
+    "step_file": "external_slit_cartridge_200um_2mm_straight.step",
+    "stl_file": "external_slit_cartridge_200um_2mm_straight.stl",
+    "volume_mm3": 1353.3793235309065,
+    "bbox": [
+      32.0,
+      22.0,
+      2.0000000000000373
+    ],
+    "slit_aperture_mm": [
+      0.2,
+      8.0
+    ],
+    "mesh_points": 144,
+    "mesh_facets": 288
+  }
+}

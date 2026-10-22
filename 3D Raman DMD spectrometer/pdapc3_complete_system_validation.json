@@ -1,0 +1,57 @@
+{
+  "Stage1_Base": {
+    "step": "PDAPC3_XYZ_Stage1_Base.step",
+    "stl": "PDAPC3_XYZ_Stage1_Base.stl",
+    "volume_mm3": 18923.730472111496,
+    "bbox": [
+      64.0,
+      64.0,
+      6.0
+    ],
+    "facets": 7812
+  },
+  "Stage2_XY_Slider": {
+    "step": "PDAPC3_XYZ_Stage2_XY_Slider.step",
+    "stl": "PDAPC3_XYZ_Stage2_XY_Slider.stl",
+    "volume_mm3": 14279.829456332649,
+    "bbox": [
+      52.0,
+      52.0,
+      21.0
+    ],
+    "facets": 3844
+  },
+  "Stage3_Z_Carrier": {
+    "step": "PDAPC3_XYZ_Stage3_Z_Carrier.step",
+    "stl": "PDAPC3_XYZ_Stage3_Z_Carrier.stl",
+    "volume_mm3": 12825.730231398935,
+    "bbox": [
+      48.0,
+      48.0,
+      22.0
+    ],
+    "facets": 3168
+  },
+  "Light_Shield_Hood": {
+    "step": "PDAPC3_Light_Shield_Hood.step",
+    "stl": "PDAPC3_Light_Shield_Hood.stl",
+    "volume_mm3": 59033.833568872564,
+    "bbox": [
+      64.0,
+      64.0,
+      68.0
+    ],
+    "facets": 1088
+  },
+  "Light_Shield_Cable_Cap": {
+    "step": "PDAPC3_Light_Shield_Cable_Cap.step",
+    "stl": "PDAPC3_Light_Shield_Cable_Cap.stl",
+    "volume_mm3": 1789.5247833867527,
+    "bbox": [
+      32.0,
+      16.0,
+      6.5
+    ],
+    "facets": 1060
+  }
+}

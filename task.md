@@ -1,0 +1,6 @@
+- [x] Integrate realistic Thorlabs achromatic doublets (`AC254-040-A`) into the LDE stack.
+- [x] Configure wavelength set for 785 nm Raman scattering laser (0.785, 0.850, 0.900 µm).
+- [x] Correctly fold the 3D ray-tracing coordinate system around the Grating and DMD (accounting for reflections and diffractions).
+- [x] Override parallel ray generation to properly simulate the fiber's NA 0.22 point-source diverging beam.
+- [x] Run the optimization algorithm (`scipy.optimize.minimize`) to tune free-space distances and minimize the RMS spot size on the detector.
+- [x] Save the optimized prescription to `fiber_spectrometer_thorlabs_optimized.json`.

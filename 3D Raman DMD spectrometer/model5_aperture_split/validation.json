@@ -1,0 +1,34 @@
+{
+  "source": "support_top_half_new.step",
+  "operation": "Split only; no changes to existing geometry or holes; zero seam gap",
+  "source_volume_mm3": 178619.68448649743,
+  "dmd_volume_mm3": 15895.541304018896,
+  "remaining_volume_mm3": 162724.1431825297,
+  "volume_error_mm3": 5.116453394293785e-08,
+  "dmd_share_percent": 8.899098299112998,
+  "retained_housing_mount_axes_YZ_mm": [
+    [
+      -76,
+      136
+    ],
+    [
+      -26,
+      122
+    ]
+  ],
+  "retained_DMD_mounts_local_XY_mm": [
+    [
+      15,
+      -15
+    ],
+    [
+      15,
+      15
+    ]
+  ],
+  "checks": [
+    "One valid closed solid per section",
+    "Source volume preserved",
+    "Both STEP exports reimport as valid solids with matching volume"
+  ]
+}

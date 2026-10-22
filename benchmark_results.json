@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-09T11:13:31Z",
+  "project": "spectrometer_raman_50mm_100mm.json",
+  "overall_status": "PASS",
+  "benchmarks": {
+    "engine": {
+      "status": "PASS",
+      "tests": {
+        "500_rays": {
+          "batch_median_ms": 7.04,
+          "scalar_median_ms": 391.72,
+          "speedup": 55.66,
+          "sla_target_ms": 50.0,
+          "passed": true
+        },
+        "5000_rays": {
+          "batch_median_ms": 46.25,
+          "rays_per_sec": 108102.3,
+          "sla_target_ms": 200.0,
+          "passed": true
+        }
+      }
+    },
+    "rendering_2d": {
+      "status": "PASS",
+      "tests": {
+        "2d_update_cycle": {
+          "median_update_ms": 19.54,
+          "fps": 51.2,
+          "sla_target_ms": 25.0,
+          "passed": true
+        }
+      }
+    },
+    "rendering_3d": {
+      "status": "PASS",
+      "tests": {
+        "3d_mesh_cache": {
+          "initial_build_ms": 111.96,
+          "cached_update_median_ms": 3.49,
+          "cache_hits": 14,
+          "sla_target_ms": 10.0,
+          "passed": true
+        }
+      }
+    },
+    "gui": {
+      "status": "PASS",
+      "tests": {
+        "gui_throttling": {
+          "throttle_interval_ms": 33,
+          "debounce_interval_ms": 150,
+          "slider_events": 50,
+          "synchronous_emits": 0,
+          "passed": true
+        }
+      }
+    }
+  }
+}

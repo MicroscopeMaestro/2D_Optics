@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="704.0px" height="795.8px" viewBox="0 0 704.0 795.8">
+<style>
+  .lens-outline { fill: #e8f4fc; fill-opacity: 0.7; stroke: #1e3d59; stroke-width: 1.5px; }
+  .component-outline { fill: #fff3cd; stroke: #856404; stroke-width: 1.5px; }
+  .optical-axis { stroke: #d9534f; stroke-width: 1.0px; stroke-dasharray: 6,3,1,3; }
+  .dim-line { stroke: #0275d8; stroke-width: 1.0px; }
+  .dim-text { fill: #0275d8; font-family: sans-serif; font-size: 10px; font-weight: bold; text-anchor: middle; }
+  .callout-text { fill: #6f42c1; font-family: sans-serif; font-size: 9px; font-weight: bold; }
+  .table-header { fill: #343a40; font-family: sans-serif; font-size: 10px; font-weight: bold; }
+  .table-cell { fill: #495057; font-family: sans-serif; font-size: 9px; }
+  .ray-785 { stroke: #dc3545; stroke-width: 0.8px; stroke-opacity: 0.8; fill: none; }
+  .ray-850 { stroke: #28a745; stroke-width: 0.8px; stroke-opacity: 0.8; fill: none; }
+  .ray-900 { stroke: #007bff; stroke-width: 0.8px; stroke-opacity: 0.8; fill: none; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#0275d8" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff" />
+<line x1="378.5" y1="278.2" x2="431.0" y2="278.2" class="optical-axis" />
+<line x1="431.0" y1="278.2" x2="478.3" y2="278.2" class="optical-axis" />
+<line x1="478.3" y1="278.2" x2="504.5" y2="278.2" class="optical-axis" />
+<line x1="504.5" y1="278.2" x2="511.5" y2="278.2" class="optical-axis" />
+<line x1="511.5" y1="278.2" x2="599.0" y2="278.2" class="optical-axis" />
+<line x1="599.0" y1="278.2" x2="561.6" y2="224.6" class="optical-axis" />
+<line x1="561.6" y1="224.6" x2="553.1" y2="212.5" class="optical-axis" />
+<line x1="553.1" y1="212.5" x2="550.6" y2="208.9" class="optical-axis" />
+<line x1="550.6" y1="208.9" x2="504.8" y2="143.2" class="optical-axis" />
+<line x1="504.8" y1="143.2" x2="184.4" y2="277.1" class="optical-axis" />
+<line x1="184.4" y1="277.1" x2="180.1" y2="278.9" class="optical-axis" />
+<line x1="180.1" y1="278.9" x2="170.5" y2="282.9" class="optical-axis" />
+<line x1="170.5" y1="282.9" x2="149.2" y2="291.8" class="optical-axis" />
+<line x1="149.2" y1="291.8" x2="123.5" y2="302.5" class="optical-axis" />
+<line x1="123.5" y1="302.5" x2="105.4" y2="310.1" class="optical-axis" />
+<polyline points="378.5,278.2 431.0,313.7" class="ray-785" />
+<polyline points="378.5,278.2 431.0,296.0" class="ray-785" />
+<polyline points="378.5,278.2 431.0,278.2 478.3,278.2 504.5,278.2 511.5,278.2 599.0,278.2 559.1,194.4 550.6,175.9 548.0,170.3 500.3,67.5 176.4,454.5 171.8,460.2 162.8,471.0 138.1,501.8 119.3,534.0 105.7,562.4" class="ray-785" />
+<polyline points="378.5,278.2 431.0,260.4" class="ray-785" />
+<polyline points="378.5,278.2 431.0,242.6" class="ray-785" />
+<polyline points="378.5,278.2 431.0,313.7" class="ray-850" />
+<polyline points="378.5,278.2 431.0,296.0" class="ray-850" />
+<polyline points="378.5,278.2 431.0,278.2 478.3,278.2 504.5,278.2 511.5,278.2 599.0,278.2 561.6,196.0 553.1,177.3 550.6,171.9 504.8,71.0 184.4,464.8 180.1,470.0 170.5,481.9 149.2,508.1 123.5,539.6 105.4,561.9" class="ray-850" />
+<polyline points="378.5,278.2 431.0,260.4" class="ray-850" />
+<polyline points="378.5,278.2 431.0,242.6" class="ray-850" />
+<polyline points="378.5,278.2 431.0,313.7" class="ray-900" />
+<polyline points="378.5,278.2 431.0,296.0" class="ray-900" />
+<polyline points="378.5,278.2 431.0,278.2 478.3,278.2 504.5,278.2 511.5,278.2 599.0,278.2 563.6,197.0 555.3,178.6 552.9,173.1 508.4,73.8 190.8,473.2 186.4,478.7 177.3,490.1 153.6,519.0 126.9,544.0 105.0,561.5" class="ray-900" />
+<polyline points="378.5,278.2 431.0,260.4" class="ray-900" />
+<polyline points="378.5,278.2 431.0,242.6" class="ray-900" />
+<polygon points="378.5,274.7 378.5,281.7 376.8,281.7 376.8,274.7" class="component-outline" />
+<polygon points="495.9,233.7 493.6,236.3 491.5,239.0 489.6,241.6 487.9,244.2 486.4,246.8 485.0,249.4 483.8,252.0 482.7,254.6 481.7,257.3 480.9,259.9 480.2,262.5 479.6,265.1 479.1,267.7 478.7,270.3 478.5,273.0 478.3,275.6 478.3,278.2 478.3,280.8 478.5,283.4 478.7,286.0 479.1,288.6 479.6,291.3 480.2,293.9 480.9,296.5 481.7,299.1 482.7,301.7 483.8,304.3 485.0,306.9 486.4,309.6 487.9,312.2 489.6,314.8 491.5,317.4 493.6,320.0 495.9,322.6 479.3,322.6 479.3,322.6 483.2,320.0 486.5,317.4 489.4,314.8 491.8,312.2 493.9,309.6 495.8,306.9 497.4,304.3 498.8,301.7 500.1,299.1 501.2,296.5 502.1,293.9 502.8,291.3 503.4,288.6 503.9,286.0 504.2,283.4 504.4,280.8 504.5,278.2 504.4,275.6 504.2,273.0 503.9,270.3 503.4,267.7 502.8,265.1 502.1,262.5 501.2,259.9 500.1,257.3 498.8,254.6 497.4,252.0 495.8,249.4 493.9,246.8 491.8,244.2 489.4,241.6 486.5,239.0 483.2,236.3 479.3,233.7 495.9,233.7" class="lens-outline" />
+<polygon points="479.3,233.7 483.2,236.3 486.5,239.0 489.4,241.6 491.8,244.2 493.9,246.8 495.8,249.4 497.4,252.0 498.8,254.6 500.1,257.3 501.2,259.9 502.1,262.5 502.8,265.1 503.4,267.7 503.9,270.3 504.2,273.0 504.4,275.6 504.5,278.2 504.4,280.8 504.2,283.4 503.9,286.0 503.4,288.6 502.8,291.3 502.1,293.9 501.2,296.5 500.1,299.1 498.8,301.7 497.4,304.3 495.8,306.9 493.9,309.6 491.8,312.2 489.4,314.8 486.5,317.4 483.2,320.0 479.3,322.6 506.5,322.6 506.5,322.6 507.1,320.0 507.6,317.4 508.1,314.8 508.6,312.2 509.0,309.6 509.4,306.9 509.8,304.3 510.1,301.7 510.4,299.1 510.7,296.5 510.9,293.9 511.1,291.3 511.2,288.6 511.3,286.0 511.4,283.4 511.5,280.8 511.5,278.2 511.5,275.6 511.4,273.0 511.3,270.3 511.2,267.7 511.1,265.1 510.9,262.5 510.7,259.9 510.4,257.3 510.1,254.6 509.8,252.0 509.4,249.4 509.0,246.8 508.6,244.2 508.1,241.6 507.6,239.0 507.1,236.3 506.5,233.7 479.3,233.7" class="lens-outline" />
+<polygon points="599.0,234.4 599.0,321.9 580.8,321.9 580.8,234.4" class="component-outline" />
+<polygon points="566.7,180.2 566.7,183.2 566.6,186.2 566.5,189.1 566.3,191.9 566.2,194.7 566.0,197.4 565.7,200.1 565.4,202.8 565.1,205.3 564.8,207.9 564.4,210.4 564.0,212.9 563.6,215.3 563.1,217.7 562.7,220.1 562.1,222.4 561.6,224.6 561.0,226.9 560.4,229.0 559.8,231.2 559.2,233.3 558.5,235.4 557.8,237.4 557.1,239.4 556.3,241.3 555.5,243.2 554.7,245.1 553.8,246.9 552.9,248.7 552.0,250.4 551.0,252.0 550.0,253.7 549.0,255.2 547.9,256.7 549.3,258.7 549.3,258.7 549.2,255.5 549.1,252.3 549.0,249.2 549.1,246.2 549.1,243.2 549.2,240.4 549.4,237.5 549.6,234.8 549.8,232.1 550.1,229.5 550.4,226.9 550.8,224.4 551.2,221.9 551.6,219.5 552.1,217.1 552.6,214.8 553.1,212.5 553.7,210.3 554.3,208.1 554.9,206.0 555.6,203.9 556.3,201.9 557.1,199.9 557.9,198.0 558.7,196.1 559.5,194.3 560.4,192.6 561.4,190.9 562.4,189.2 563.4,187.7 564.5,186.2 565.6,184.8 566.8,183.5 568.1,182.3 566.7,180.2" class="lens-outline" />
+<polygon points="568.1,182.3 566.8,183.5 565.6,184.8 564.5,186.2 563.4,187.7 562.4,189.2 561.4,190.9 560.4,192.6 559.5,194.3 558.7,196.1 557.9,198.0 557.1,199.9 556.3,201.9 555.6,203.9 554.9,206.0 554.3,208.1 553.7,210.3 553.1,212.5 552.6,214.8 552.1,217.1 551.6,219.5 551.2,221.9 550.8,224.4 550.4,226.9 550.1,229.5 549.8,232.1 549.6,234.8 549.4,237.5 549.2,240.4 549.1,243.2 549.1,246.2 549.0,249.2 549.1,252.3 549.2,255.5 549.3,258.7 542.5,248.9 542.5,248.9 542.9,246.4 543.3,244.0 543.7,241.6 544.2,239.2 544.6,236.8 545.1,234.4 545.5,232.0 546.0,229.6 546.5,227.3 547.0,225.0 547.5,222.6 548.0,220.3 548.5,218.0 549.0,215.7 549.5,213.4 550.1,211.2 550.6,208.9 551.2,206.7 551.8,204.4 552.3,202.2 552.9,200.0 553.5,197.8 554.1,195.6 554.7,193.5 555.3,191.3 555.9,189.2 556.6,187.0 557.2,184.9 557.9,182.8 558.5,180.7 559.2,178.6 559.9,176.5 560.5,174.5 561.2,172.4 568.1,182.3" class="lens-outline" />
+<polygon points="508.4,128.4 501.1,158.1 499.5,163.0 506.8,133.3" class="component-outline" />
+<polygon points="193.2,239.1 192.7,241.3 192.2,243.6 191.7,245.8 191.2,248.0 190.7,250.2 190.2,252.5 189.7,254.7 189.2,256.9 188.7,259.2 188.2,261.4 187.6,263.6 187.1,265.9 186.6,268.1 186.0,270.4 185.5,272.6 184.9,274.9 184.4,277.1 183.8,279.4 183.3,281.6 182.7,283.9 182.2,286.1 181.6,288.4 181.0,290.6 180.4,292.9 179.8,295.2 179.3,297.4 178.7,299.7 178.1,302.0 177.5,304.2 176.9,306.5 176.3,308.8 175.7,311.0 175.0,313.3 174.4,315.6 168.1,318.2 168.1,318.2 169.0,315.8 169.8,313.5 170.6,311.1 171.4,308.8 172.2,306.4 173.0,304.1 173.7,301.8 174.4,299.4 175.1,297.1 175.8,294.8 176.5,292.5 177.1,290.2 177.8,288.0 178.4,285.7 179.0,283.4 179.6,281.1 180.1,278.9 180.7,276.6 181.2,274.4 181.7,272.2 182.2,270.0 182.7,267.7 183.1,265.5 183.5,263.3 184.0,261.1 184.4,259.0 184.7,256.8 185.1,254.6 185.5,252.4 185.8,250.3 186.1,248.1 186.4,246.0 186.7,243.9 186.9,241.7 193.2,239.1" class="lens-outline" />
+<polygon points="186.9,241.7 186.7,243.9 186.4,246.0 186.1,248.1 185.8,250.3 185.5,252.4 185.1,254.6 184.7,256.8 184.4,259.0 184.0,261.1 183.5,263.3 183.1,265.5 182.7,267.7 182.2,270.0 181.7,272.2 181.2,274.4 180.7,276.6 180.1,278.9 179.6,281.1 179.0,283.4 178.4,285.7 177.8,288.0 177.1,290.2 176.5,292.5 175.8,294.8 175.1,297.1 174.4,299.4 173.7,301.8 173.0,304.1 172.2,306.4 171.4,308.8 170.6,311.1 169.8,313.5 169.0,315.8 168.1,318.2 163.0,320.4 163.0,320.4 163.3,318.2 163.7,316.0 164.0,313.9 164.4,311.7 164.8,309.5 165.2,307.3 165.6,305.1 166.1,302.9 166.5,300.7 167.0,298.5 167.4,296.3 167.9,294.1 168.4,291.9 168.9,289.6 169.4,287.4 170.0,285.2 170.5,282.9 171.1,280.7 171.6,278.4 172.2,276.1 172.8,273.9 173.4,271.6 174.1,269.3 174.7,267.0 175.3,264.7 176.0,262.5 176.7,260.2 177.4,257.8 178.1,255.5 178.8,253.2 179.5,250.9 180.2,248.6 181.0,246.2 181.8,243.9 186.9,241.7" class="lens-outline" />
+<polygon points="128.0,266.4 133.1,266.2 136.8,266.7 139.7,267.5 142.1,268.6 144.0,269.8 145.6,271.1 146.9,272.6 147.9,274.2 148.7,275.9 149.4,277.6 149.8,279.5 150.1,281.4 150.2,283.3 150.2,285.4 150.0,287.5 149.6,289.6 149.2,291.8 148.5,294.1 147.8,296.5 146.8,298.9 145.8,301.3 144.6,303.8 143.2,306.4 141.6,309.1 139.9,311.8 138.0,314.7 135.8,317.6 133.4,320.6 130.7,323.8 127.7,327.0 124.3,330.5 120.3,334.2 115.4,338.2 109.2,342.8 114.1,340.8 114.1,340.8 114.7,338.5 115.2,336.3 115.8,334.0 116.3,331.8 116.9,329.5 117.5,327.3 118.0,325.0 118.6,322.8 119.1,320.5 119.7,318.3 120.2,316.0 120.8,313.8 121.3,311.5 121.9,309.3 122.4,307.0 123.0,304.8 123.5,302.5 124.1,300.3 124.6,298.0 125.2,295.8 125.7,293.5 126.3,291.3 126.8,289.1 127.4,286.8 127.9,284.6 128.5,282.3 129.0,280.1 129.6,277.8 130.1,275.6 130.7,273.3 131.3,271.1 131.8,268.8 132.4,266.6 132.9,264.3 128.0,266.4" class="lens-outline" />
+<polygon points="105.7,308.6 105.0,311.6 108.2,310.3 108.9,307.3" class="component-outline" />
+<line x1="378.5" y1="229.2" x2="431.0" y2="229.2" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="404.8" y="225.2" class="dim-text">Dist=15.0</text>
+<line x1="431.0" y1="229.2" x2="478.3" y2="229.2" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="454.6" y="225.2" class="dim-text">Dist=13.5</text>
+<line x1="431.0" y1="233.7" x2="431.0" y2="322.6" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="425.0" y="278.2" class="callout-text">Ø25.4</text>
+<line x1="478.3" y1="246.7" x2="504.5" y2="246.7" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="491.4" y="242.7" class="dim-text">Tc=7.5</text>
+<line x1="478.3" y1="233.7" x2="478.3" y2="322.6" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="472.3" y="278.2" class="callout-text">Ø25.4</text>
+<line x1="504.5" y1="246.7" x2="511.5" y2="246.7" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="508.0" y="242.7" class="dim-text">Tc=2.0</text>
+<line x1="504.5" y1="233.7" x2="504.5" y2="322.6" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="498.5" y="278.2" class="callout-text">Ø25.4</text>
+<line x1="511.5" y1="229.2" x2="599.0" y2="229.2" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="555.3" y="225.2" class="dim-text">Dist=25.0</text>
+<line x1="511.5" y1="233.7" x2="511.5" y2="322.6" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="505.5" y="278.2" class="callout-text">Ø25.4</text>
+<line x1="599.0" y1="246.7" x2="561.6" y2="193.1" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="580.3" y="215.9" class="dim-text">Tc=30.0</text>
+<line x1="599.0" y1="233.7" x2="599.0" y2="322.6" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="593.0" y="278.2" class="callout-text">Ø25.4</text>
+<line x1="561.6" y1="193.1" x2="553.1" y2="181.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="557.4" y="183.1" class="dim-text">Tc=6.8</text>
+<line x1="571.0" y1="186.4" x2="552.2" y2="262.9" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="565.0" y="224.6" class="callout-text">Ø25.4</text>
+<line x1="553.1" y1="181.0" x2="550.6" y2="177.4" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="551.9" y="175.2" class="dim-text">Tc=2.0</text>
+<line x1="562.5" y1="174.3" x2="543.7" y2="250.7" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="556.5" y="212.5" class="callout-text">Ø25.4</text>
+<line x1="550.6" y1="159.9" x2="504.8" y2="94.2" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="527.7" y="123.1" class="dim-text">Dist=36.8</text>
+<line x1="560.0" y1="170.7" x2="541.2" y2="247.2" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="554.0" y="208.9" class="callout-text">Ø25.4</text>
+<line x1="504.8" y1="111.7" x2="184.4" y2="245.6" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="344.6" y="174.7" class="dim-text">Tc=150.0</text>
+<line x1="514.1" y1="105.0" x2="495.4" y2="181.5" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="508.1" y="143.2" class="callout-text">Ø25.4</text>
+<line x1="184.4" y1="245.6" x2="180.1" y2="247.4" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="182.3" y="242.5" class="dim-text">Tc=2.0</text>
+<line x1="193.8" y1="238.9" x2="175.0" y2="315.3" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="187.8" y="277.1" class="callout-text">Ø25.4</text>
+<line x1="180.1" y1="247.4" x2="170.5" y2="251.4" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="175.3" y="245.4" class="dim-text">Tc=4.5</text>
+<line x1="189.5" y1="240.7" x2="170.7" y2="317.1" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="183.5" y="278.9" class="callout-text">Ø25.4</text>
+<line x1="170.5" y1="233.9" x2="149.2" y2="242.8" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="159.8" y="234.4" class="dim-text">Dist=10.0</text>
+<line x1="179.9" y1="244.7" x2="161.1" y2="321.1" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="173.9" y="282.9" class="callout-text">Ø25.4</text>
+<line x1="149.2" y1="260.3" x2="123.5" y2="271.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="136.3" y="261.7" class="dim-text">Tc=12.0</text>
+<line x1="158.5" y1="253.6" x2="139.8" y2="330.1" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="152.5" y="291.8" class="callout-text">Ø25.4</text>
+<line x1="123.5" y1="253.5" x2="105.4" y2="261.1" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="114.4" y="253.3" class="dim-text">Dist=8.5</text>
+<line x1="132.9" y1="264.3" x2="114.1" y2="340.8" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="126.9" y="302.5" class="callout-text">Ø25.4</text>
+<line x1="105.7" y1="308.6" x2="105.0" y2="311.6" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="99.7" y="310.1" class="callout-text">Ø1.0</text>
+<text x="52.5" y="661.2807542418872" class="table-header" style="font-size:12px;">OPTICAL PRESCRIPTION DATA TABLE (2D CAD)</text>
+<text x="56.5" y="685.2807542418872" class="table-header">Surf</text>
+<text x="96.5" y="685.2807542418872" class="table-header">Name</text>
+<text x="206.5" y="685.2807542418872" class="table-header">Type</text>
+<text x="281.5" y="685.2807542418872" class="table-header">Radius</text>
+<text x="356.5" y="685.2807542418872" class="table-header">Thickness</text>
+<text x="431.5" y="685.2807542418872" class="table-header">Glass</text>
+<text x="506.5" y="685.2807542418872" class="table-header">Semi-Diam</text>
+<text x="56.5" y="703.2807542418872" class="table-cell">S0</text>
+<text x="96.5" y="703.2807542418872" class="table-cell">Fiber_Core_Inp</text>
+<text x="206.5" y="703.2807542418872" class="table-cell">Object</text>
+<text x="281.5" y="703.2807542418872" class="table-cell">Infinity</text>
+<text x="356.5" y="703.2807542418872" class="table-cell">15.00</text>
+<text x="431.5" y="703.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="703.2807542418872" class="table-cell">0.03</text>
+<text x="56.5" y="719.2807542418872" class="table-cell">S1</text>
+<text x="96.5" y="719.2807542418872" class="table-cell">1in_Input_Aper</text>
+<text x="206.5" y="719.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="719.2807542418872" class="table-cell">Infinity</text>
+<text x="356.5" y="719.2807542418872" class="table-cell">13.50</text>
+<text x="431.5" y="719.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="719.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="735.2807542418872" class="table-cell">S2</text>
+<text x="96.5" y="735.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="735.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="735.2807542418872" class="table-cell">18.50</text>
+<text x="356.5" y="735.2807542418872" class="table-cell">7.50</text>
+<text x="431.5" y="735.2807542418872" class="table-cell">N-BK7</text>
+<text x="506.5" y="735.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="751.2807542418872" class="table-cell">S3</text>
+<text x="96.5" y="751.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="751.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="751.2807542418872" class="table-cell">-14.80</text>
+<text x="356.5" y="751.2807542418872" class="table-cell">2.00</text>
+<text x="431.5" y="751.2807542418872" class="table-cell">SF5</text>
+<text x="506.5" y="751.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="767.2807542418872" class="table-cell">S4</text>
+<text x="96.5" y="767.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="767.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="767.2807542418872" class="table-cell">-57.20</text>
+<text x="356.5" y="767.2807542418872" class="table-cell">25.00</text>
+<text x="431.5" y="767.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="767.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="783.2807542418872" class="table-cell">S5</text>
+<text x="96.5" y="783.2807542418872" class="table-cell">Thorlabs_GR25-</text>
+<text x="206.5" y="783.2807542418872" class="table-cell">Grating</text>
+<text x="281.5" y="783.2807542418872" class="table-cell">Infinity</text>
+<text x="356.5" y="783.2807542418872" class="table-cell">30.00</text>
+<text x="431.5" y="783.2807542418872" class="table-cell">MIRROR</text>
+<text x="506.5" y="783.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="799.2807542418872" class="table-cell">S6</text>
+<text x="96.5" y="799.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="799.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="799.2807542418872" class="table-cell">25.10</text>
+<text x="356.5" y="799.2807542418872" class="table-cell">6.80</text>
+<text x="431.5" y="799.2807542418872" class="table-cell">N-BK7</text>
+<text x="506.5" y="799.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="815.2807542418872" class="table-cell">S7</text>
+<text x="96.5" y="815.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="815.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="815.2807542418872" class="table-cell">-20.20</text>
+<text x="356.5" y="815.2807542418872" class="table-cell">2.00</text>
+<text x="431.5" y="815.2807542418872" class="table-cell">SF5</text>
+<text x="506.5" y="815.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="831.2807542418872" class="table-cell">S8</text>
+<text x="96.5" y="831.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="831.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="831.2807542418872" class="table-cell">-84.00</text>
+<text x="356.5" y="831.2807542418872" class="table-cell">36.80</text>
+<text x="431.5" y="831.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="831.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="847.2807542418872" class="table-cell">S9</text>
+<text x="96.5" y="847.2807542418872" class="table-cell">TI_DLP4500_DMD</text>
+<text x="206.5" y="847.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="847.2807542418872" class="table-cell">Infinity</text>
+<text x="356.5" y="847.2807542418872" class="table-cell">150.00</text>
+<text x="431.5" y="847.2807542418872" class="table-cell">MIRROR</text>
+<text x="506.5" y="847.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="863.2807542418872" class="table-cell">S10</text>
+<text x="96.5" y="863.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="863.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="863.2807542418872" class="table-cell">298.00</text>
+<text x="356.5" y="863.2807542418872" class="table-cell">2.00</text>
+<text x="431.5" y="863.2807542418872" class="table-cell">SF5</text>
+<text x="506.5" y="863.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="879.2807542418872" class="table-cell">S11</text>
+<text x="96.5" y="879.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="879.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="879.2807542418872" class="table-cell">66.80</text>
+<text x="356.5" y="879.2807542418872" class="table-cell">4.50</text>
+<text x="431.5" y="879.2807542418872" class="table-cell">N-BK7</text>
+<text x="506.5" y="879.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="895.2807542418872" class="table-cell">S12</text>
+<text x="96.5" y="895.2807542418872" class="table-cell">Thorlabs_AC254</text>
+<text x="206.5" y="895.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="895.2807542418872" class="table-cell">-92.50</text>
+<text x="356.5" y="895.2807542418872" class="table-cell">10.00</text>
+<text x="431.5" y="895.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="895.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="911.2807542418872" class="table-cell">S13</text>
+<text x="96.5" y="911.2807542418872" class="table-cell">Thorlabs_ACL25</text>
+<text x="206.5" y="911.2807542418872" class="table-cell">Aspheric</text>
+<text x="281.5" y="911.2807542418872" class="table-cell">8.32</text>
+<text x="356.5" y="911.2807542418872" class="table-cell">12.00</text>
+<text x="431.5" y="911.2807542418872" class="table-cell">B270</text>
+<text x="506.5" y="911.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="927.2807542418872" class="table-cell">S14</text>
+<text x="96.5" y="927.2807542418872" class="table-cell">Thorlabs_ACL25</text>
+<text x="206.5" y="927.2807542418872" class="table-cell">Standard</text>
+<text x="281.5" y="927.2807542418872" class="table-cell">Infinity</text>
+<text x="356.5" y="927.2807542418872" class="table-cell">8.50</text>
+<text x="431.5" y="927.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="927.2807542418872" class="table-cell">12.70</text>
+<text x="56.5" y="943.2807542418872" class="table-cell">S15</text>
+<text x="96.5" y="943.2807542418872" class="table-cell">Detector_1mm2</text>
+<text x="206.5" y="943.2807542418872" class="table-cell">Detector</text>
+<text x="281.5" y="943.2807542418872" class="table-cell">Infinity</text>
+<text x="356.5" y="943.2807542418872" class="table-cell">0.00</text>
+<text x="431.5" y="943.2807542418872" class="table-cell">AIR</text>
+<text x="506.5" y="943.2807542418872" class="table-cell">0.50</text>
+</svg>

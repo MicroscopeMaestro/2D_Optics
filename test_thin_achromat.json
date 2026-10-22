@@ -1,0 +1,45 @@
+{
+  "surfaces": [
+    {
+      "name": "OBJ",
+      "radius": 0.0,
+      "thickness": 1000000.0,
+      "glass": "AIR",
+      "surface_type": "Standard"
+    },
+    {
+      "name": "S1",
+      "radius": 13.212,
+      "thickness": 0.01,
+      "glass": "N-BAF10",
+      "surface_type": "Standard"
+    },
+    {
+      "name": "S2",
+      "radius": 0.0,
+      "thickness": 0.01,
+      "glass": "SF10",
+      "surface_type": "Standard"
+    },
+    {
+      "name": "S3",
+      "radius": 23.711,
+      "thickness": 50.0,
+      "glass": "AIR",
+      "surface_type": "Standard"
+    },
+    {
+      "name": "IMA",
+      "radius": 0.0,
+      "thickness": 0.0,
+      "glass": "AIR",
+      "surface_type": "Detector"
+    }
+  ],
+  "wavelengths": [
+    0.48613,
+    0.58756,
+    0.65627
+  ],
+  "primary_wavelength": 0.58756
+}

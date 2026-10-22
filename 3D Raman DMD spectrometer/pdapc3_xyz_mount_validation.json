@@ -1,0 +1,35 @@
+{
+  "Stage1_Base": {
+    "step": "PDAPC3_XYZ_Stage1_Base.step",
+    "stl": "PDAPC3_XYZ_Stage1_Base.stl",
+    "volume_mm3": 12722.815994207082,
+    "bbox": [
+      52.0,
+      52.0,
+      6.0
+    ],
+    "facets": 6732
+  },
+  "Stage2_XY_Slider": {
+    "step": "PDAPC3_XYZ_Stage2_XY_Slider.step",
+    "stl": "PDAPC3_XYZ_Stage2_XY_Slider.stl",
+    "volume_mm3": 14399.771524593794,
+    "bbox": [
+      52.0,
+      52.0,
+      21.0
+    ],
+    "facets": 2748
+  },
+  "Stage3_Z_Carrier": {
+    "step": "PDAPC3_XYZ_Stage3_Z_Carrier.step",
+    "stl": "PDAPC3_XYZ_Stage3_Z_Carrier.stl",
+    "volume_mm3": 12953.907211665392,
+    "bbox": [
+      48.0,
+      48.0,
+      22.0
+    ],
+    "facets": 3168
+  }
+}

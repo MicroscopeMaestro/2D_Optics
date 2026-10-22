@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="473.2px" height="648.9px" viewBox="0 0 473.2 648.9">
+<style>
+  .lens-outline { fill: #e8f4fc; fill-opacity: 0.7; stroke: #1e3d59; stroke-width: 1.5px; }
+  .component-outline { fill: #fff3cd; stroke: #856404; stroke-width: 1.5px; }
+  .optical-axis { stroke: #d9534f; stroke-width: 1.0px; stroke-dasharray: 6,3,1,3; }
+  .dim-line { stroke: #0275d8; stroke-width: 1.0px; }
+  .dim-text { fill: #0275d8; font-family: sans-serif; font-size: 10px; font-weight: bold; text-anchor: middle; }
+  .callout-text { fill: #6f42c1; font-family: sans-serif; font-size: 9px; font-weight: bold; }
+  .table-header { fill: #343a40; font-family: sans-serif; font-size: 10px; font-weight: bold; }
+  .table-cell { fill: #495057; font-family: sans-serif; font-size: 9px; }
+  .ray-785 { stroke: #dc3545; stroke-width: 0.8px; stroke-opacity: 0.8; fill: none; }
+  .ray-850 { stroke: #28a745; stroke-width: 0.8px; stroke-opacity: 0.8; fill: none; }
+  .ray-900 { stroke: #007bff; stroke-width: 0.8px; stroke-opacity: 0.8; fill: none; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#0275d8" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff" />
+<line x1="193.2" y1="149.5" x2="368.2" y2="149.5" class="optical-axis" />
+<line x1="368.2" y1="149.5" x2="216.8" y2="149.5" class="optical-axis" />
+<line x1="216.8" y1="149.5" x2="228.5" y2="149.5" class="optical-axis" />
+<line x1="228.5" y1="149.5" x2="139.5" y2="149.5" class="optical-axis" />
+<line x1="139.5" y1="149.5" x2="105.0" y2="149.5" class="optical-axis" />
+<line x1="105.0" y1="149.5" x2="175.5" y2="149.5" class="optical-axis" />
+<line x1="175.5" y1="149.5" x2="172.1" y2="149.5" class="optical-axis" />
+<polyline points="193.2,149.5 361.7,183.7 196.2,136.4 205.6,267.5 138.6,21.9 149.8,555.5" class="ray-785" />
+<polyline points="193.2,149.5 365.3,166.9 206.4,121.4 217.1,265.4 139.3,21.8 128.0,551.0 197.2,393.4 172.5,437.9" class="ray-785" />
+<polyline points="193.2,149.5 368.2,149.5 216.8,106.0 228.5,263.1 139.5,21.7 105.0,545.6 175.5,385.4 172.1,437.8" class="ray-785" />
+<polyline points="193.2,149.5 370.3,131.5 227.2,90.8 239.2,260.7 138.7,21.9 80.9,539.4 150.4,382.4 175.2,438.0" class="ray-785" />
+<polyline points="193.2,149.5 371.4,113.2 237.3,75.9 248.8,258.3 136.5,22.2 55.9,532.3" class="ray-785" />
+<polyline points="193.2,149.5 361.7,183.7 196.2,136.4 202.7,268.0 132.8,22.7 138.0,553.1 207.7,399.4 173.5,437.9" class="ray-850" />
+<polyline points="193.2,149.5 365.3,166.9 206.4,121.4 213.9,266.1 133.5,22.6 116.9,548.4 188.9,389.7 172.8,437.9" class="ray-850" />
+<polyline points="193.2,149.5 368.2,149.5 216.8,106.0 224.9,263.9 133.6,22.6 94.7,543.0 167.0,383.7 173.1,437.9" class="ray-850" />
+<polyline points="193.2,149.5 370.3,131.5 227.2,90.8 235.4,261.6 132.7,22.7 71.3,536.7 141.6,382.8 179.5,438.3" class="ray-850" />
+<polyline points="193.2,149.5 371.4,113.2 237.3,75.9 244.6,259.3 130.3,23.1 47.0,529.6" class="ray-850" />
+<polyline points="193.2,149.5 361.7,183.7 196.2,136.4 199.8,268.5 127.0,23.5" class="ray-900" />
+<polyline points="193.2,149.5 365.3,166.9 206.4,121.4 210.7,266.6 127.7,23.4" class="ray-900" />
+<polyline points="193.2,149.5 368.2,149.5 216.8,106.0 221.5,264.6 127.8,23.4" class="ray-900" />
+<polyline points="193.2,149.5 370.3,131.5 227.2,90.8 231.6,262.4 126.7,23.6" class="ray-900" />
+<polyline points="193.2,149.5 371.4,113.2 237.3,75.9 240.5,260.3 124.3,23.9" class="ray-900" />
+<polyline points="193.2,149.5 361.7,183.7 196.2,136.4 197.0,268.9 121.7,24.3" class="ray-785" />
+<polyline points="193.2,149.5 365.3,166.9 206.4,121.4 207.7,267.2 122.3,24.2" class="ray-785" />
+<polyline points="193.2,149.5 368.2,149.5 216.8,106.0 218.2,265.2 122.3,24.2" class="ray-785" />
+<polyline points="193.2,149.5 370.3,131.5 227.2,90.8 228.0,263.2 121.2,24.4" class="ray-785" />
+<polyline points="193.2,149.5 371.4,113.2 237.3,75.9 236.6,261.3 118.6,24.8" class="ray-785" />
+<polyline points="193.2,149.5 361.7,183.7 196.2,136.4 192.7,269.6 113.2,25.5" class="ray-850" />
+<polyline points="193.2,149.5 365.3,166.9 206.4,121.4 202.9,268.0 113.9,25.4" class="ray-850" />
+<polyline points="193.2,149.5 368.2,149.5 216.8,106.0 213.0,266.2 113.8,25.5" class="ray-850" />
+<polyline points="193.2,149.5 370.3,131.5 227.2,90.8 222.4,264.4 112.5,25.6" class="ray-850" />
+<polyline points="193.2,149.5 371.4,113.2 237.3,75.9 230.4,262.7 109.7,26.0" class="ray-850" />
+<polygon points="193.2,146.0 193.2,153.0 191.5,153.0 191.5,146.0" class="component-outline" />
+<polygon points="368.2,105.0 368.2,193.9 347.4,193.9 347.4,105.0" class="component-outline" />
+<polygon points="216.8,105.7 216.8,193.2 234.2,193.2 234.2,105.7" class="component-outline" />
+<polygon points="228.5,105.0 228.5,193.9 224.0,193.9 224.0,105.0" class="component-outline" />
+<polygon points="139.5,132.2 139.5,166.7 141.0,166.7 141.0,132.2" class="component-outline" />
+<polygon points="105.0,105.0 105.0,193.9 110.0,193.9 110.0,105.0" class="component-outline" />
+<polygon points="175.5,105.0 175.5,193.9 170.5,193.9 170.5,105.0" class="component-outline" />
+<polygon points="172.1,147.7 172.1,151.2 172.5,151.2 172.5,147.7" class="component-outline" />
+<line x1="193.2" y1="100.5" x2="368.2" y2="100.5" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="280.7" y="96.5" class="dim-text">Dist=50.0</text>
+<line x1="368.2" y1="118.0" x2="216.8" y2="118.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="292.5" y="114.0" class="dim-text">Tc=45.0</text>
+<line x1="368.2" y1="105.0" x2="368.2" y2="193.9" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="362.2" y="149.5" class="callout-text">Ø25.4</text>
+<line x1="216.8" y1="118.0" x2="228.5" y2="118.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="222.6" y="114.0" class="dim-text">Tc=45.0</text>
+<line x1="216.8" y1="105.7" x2="216.8" y2="193.2" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="210.8" y="149.5" class="callout-text">Ø25.0</text>
+<line x1="228.5" y1="118.0" x2="139.5" y2="118.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="184.0" y="114.0" class="dim-text">Tc=73.5</text>
+<line x1="228.5" y1="105.0" x2="228.5" y2="193.9" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="222.5" y="149.5" class="callout-text">Ø25.4</text>
+<line x1="139.5" y1="118.0" x2="105.0" y2="118.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="122.2" y="114.0" class="dim-text">Tc=150.0</text>
+<line x1="139.5" y1="132.2" x2="139.5" y2="166.7" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="133.5" y="149.5" class="callout-text">Ø9.9</text>
+<line x1="105.0" y1="118.0" x2="175.5" y2="118.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="140.3" y="114.0" class="dim-text">Tc=50.0</text>
+<line x1="105.0" y1="105.0" x2="105.0" y2="193.9" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="99.0" y="149.5" class="callout-text">Ø25.4</text>
+<line x1="175.5" y1="118.0" x2="172.1" y2="118.0" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+<text x="173.8" y="114.0" class="dim-text">Tc=15.0</text>
+<line x1="175.5" y1="105.0" x2="175.5" y2="193.9" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="169.5" y="149.5" class="callout-text">Ø25.4</text>
+<line x1="172.1" y1="147.7" x2="172.1" y2="151.2" stroke="#6c757d" stroke-width="0.8" stroke-dasharray="2,2" />
+<text x="166.1" y="149.5" class="callout-text">Ø1.0</text>
+<text x="52.5" y="514.3999999999999" class="table-header" style="font-size:12px;">OPTICAL PRESCRIPTION DATA TABLE (2D CAD)</text>
+<text x="56.5" y="538.3999999999999" class="table-header">Surf</text>
+<text x="96.5" y="538.3999999999999" class="table-header">Name</text>
+<text x="206.5" y="538.3999999999999" class="table-header">Type</text>
+<text x="281.5" y="538.3999999999999" class="table-header">Radius</text>
+<text x="356.5" y="538.3999999999999" class="table-header">Thickness</text>
+<text x="431.5" y="538.3999999999999" class="table-header">Glass</text>
+<text x="506.5" y="538.3999999999999" class="table-header">Semi-Diam</text>
+<text x="56.5" y="556.3999999999999" class="table-cell">S0</text>
+<text x="96.5" y="556.3999999999999" class="table-cell">Fiber_Head_25u</text>
+<text x="206.5" y="556.3999999999999" class="table-cell">Object</text>
+<text x="281.5" y="556.3999999999999" class="table-cell">Infinity</text>
+<text x="356.5" y="556.3999999999999" class="table-cell">50.00</text>
+<text x="431.5" y="556.3999999999999" class="table-cell">AIR</text>
+<text x="506.5" y="556.3999999999999" class="table-cell">0.01</text>
+<text x="56.5" y="572.3999999999999" class="table-cell">S1</text>
+<text x="96.5" y="572.3999999999999" class="table-cell">M1_Thorlabs_CM</text>
+<text x="206.5" y="572.3999999999999" class="table-cell">Standard</text>
+<text x="281.5" y="572.3999999999999" class="table-cell">-100.00</text>
+<text x="356.5" y="572.3999999999999" class="table-cell">45.00</text>
+<text x="431.5" y="572.3999999999999" class="table-cell">MIRROR</text>
+<text x="506.5" y="572.3999999999999" class="table-cell">12.70</text>
+<text x="56.5" y="588.3999999999999" class="table-cell">S2</text>
+<text x="96.5" y="588.3999999999999" class="table-cell">Grating_Thorla</text>
+<text x="206.5" y="588.3999999999999" class="table-cell">Grating</text>
+<text x="281.5" y="588.3999999999999" class="table-cell">Infinity</text>
+<text x="356.5" y="588.3999999999999" class="table-cell">45.00</text>
+<text x="431.5" y="588.3999999999999" class="table-cell">MIRROR</text>
+<text x="506.5" y="588.3999999999999" class="table-cell">12.50</text>
+<text x="56.5" y="604.3999999999999" class="table-cell">S3</text>
+<text x="96.5" y="604.3999999999999" class="table-cell">M2_Thorlabs_CM</text>
+<text x="206.5" y="604.3999999999999" class="table-cell">Standard</text>
+<text x="281.5" y="604.3999999999999" class="table-cell">-150.00</text>
+<text x="356.5" y="604.3999999999999" class="table-cell">73.50</text>
+<text x="431.5" y="604.3999999999999" class="table-cell">MIRROR</text>
+<text x="506.5" y="604.3999999999999" class="table-cell">12.70</text>
+<text x="56.5" y="620.3999999999999" class="table-cell">S4</text>
+<text x="96.5" y="620.3999999999999" class="table-cell">DMD4500_0.45in</text>
+<text x="206.5" y="620.3999999999999" class="table-cell">Standard</text>
+<text x="281.5" y="620.3999999999999" class="table-cell">Infinity</text>
+<text x="356.5" y="620.3999999999999" class="table-cell">150.00</text>
+<text x="431.5" y="620.3999999999999" class="table-cell">MIRROR</text>
+<text x="506.5" y="620.3999999999999" class="table-cell">4.93</text>
+<text x="56.5" y="636.3999999999999" class="table-cell">S5</text>
+<text x="96.5" y="636.3999999999999" class="table-cell">M3_Thorlabs_CM</text>
+<text x="206.5" y="636.3999999999999" class="table-cell">Standard</text>
+<text x="281.5" y="636.3999999999999" class="table-cell">-300.00</text>
+<text x="356.5" y="636.3999999999999" class="table-cell">50.00</text>
+<text x="431.5" y="636.3999999999999" class="table-cell">MIRROR</text>
+<text x="506.5" y="636.3999999999999" class="table-cell">12.70</text>
+<text x="56.5" y="652.3999999999999" class="table-cell">S6</text>
+<text x="96.5" y="652.3999999999999" class="table-cell">M4_Thorlabs_CM</text>
+<text x="206.5" y="652.3999999999999" class="table-cell">Standard</text>
+<text x="281.5" y="652.3999999999999" class="table-cell">-30.00</text>
+<text x="356.5" y="652.3999999999999" class="table-cell">15.00</text>
+<text x="431.5" y="652.3999999999999" class="table-cell">MIRROR</text>
+<text x="506.5" y="652.3999999999999" class="table-cell">12.70</text>
+<text x="56.5" y="668.3999999999999" class="table-cell">S7</text>
+<text x="96.5" y="668.3999999999999" class="table-cell">Detector_1mm_T</text>
+<text x="206.5" y="668.3999999999999" class="table-cell">Detector</text>
+<text x="281.5" y="668.3999999999999" class="table-cell">Infinity</text>
+<text x="356.5" y="668.3999999999999" class="table-cell">0.00</text>
+<text x="431.5" y="668.3999999999999" class="table-cell">AIR</text>
+<text x="506.5" y="668.3999999999999" class="table-cell">0.50</text>
+</svg>

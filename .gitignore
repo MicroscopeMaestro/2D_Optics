@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# PyInstaller / Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+
+# Secrets and credentials
+.env
+*.env
+*.key
+*.pem
+
+# Agent logs and traces
+.agents/
+.autosave/
+.history/
+**/.agents/
+**/.autosave/
+**/.history/
+
+# Testing and temporary files
+.pytest_cache/
+.test-pulse-final-tmp/
+.test-pulse-suite-tmp/
+.test-pulse-tmp/
+.test-tmp/
+.test_replace_tmp3/
+.test_tmp/
+pytest_perf_tmp/
+scratch/pytest-model-sanity/
+.test-*
+.test_*
+.coverage
+.cache/
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

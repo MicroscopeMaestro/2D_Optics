@@ -1,0 +1,15 @@
+# Dual-pulse nonlinear imaging
+
+Open **Analysis → Nonlinear Imaging**, choose **Build Dual-Pulse Microscope**, then load a calibration JSON and select **Simulate**. The template contains pump and Stokes inputs, a combiner, rejection dumps, galvos, scan/tube lenses, an objective, a thin sample, a spectral filter, and a PMT. The 3D viewer shows independent pump, Stokes, rejection, SFG, DFG, and CARS routes. Existing sequential tracing and version-3 project loading remain unchanged.
+
+The simulation calculates process wavelengths even when absolute signal calibration is missing. Absolute power is blocked until the combiner fractions with source/date, `pump_path_transmission`, `stokes_path_transmission`, `objective.transmission`, and the relevant measured `sample` coefficients have valid data and provenance. PMT predictions also require `detection_transmission`, `collection_fraction`, and an in-band `pmt.quantum_efficiency` curve. Each spectral curve uses `wavelength_nm`, `values` (fractions), `source_url`, and `retrieved`; there is no extrapolation beyond its endpoints. The sample requires `source_url`, `measurement_conditions`, and `relative_uncertainty`.
+
+The **Load Calibration JSON** button accepts either a saved project with a `nonlinear_imaging_config` object or that configuration object alone. A saved template project provides the complete editable schema. Required sample coefficients are:
+
+- SFG/DFG: `d_eff_pm_per_v` and process-specific phase mismatch in m⁻¹. Set mismatch to zero only when phase matching is established.
+- CARS: `chi3_nonres_m2_per_v2`, `chi3_resonant_m2_per_v2`, Raman line center/linewidth in cm⁻¹, and measured phase mismatch.
+- SRS: `raman_gain_m_per_w` and Raman line center/linewidth. SRS reports Stokes gain and pump loss; it does **not** create a new spectral line.
+
+The thin-sample solver uses Gaussian temporal and spatial profiles and an undepleted interaction approximation. It includes independent pulse chirp and path GDD, synchronized repetition rates, combiner splitting, delay, lateral offset, sample XYZ position, Raman detuning, phase matching, scan profiles, and energy-conservation caps. High-NA vectorial nonlinear focusing, spatially varying material tensor response, scattering, and pulse-to-pulse dynamics are not implemented; high NA and strong conversion produce warnings.
+
+The default Hamamatsu H15460-40 is a **voltage-output** GaAsP PMT module. The simulator can report incident optical power and estimated photocathode-electron rate for an in-band signal, but not literal counts/s from that module without a calibrated counting readout. A custom photon-counting PMT configuration enables the count/dead-time model. At 800/1040 nm pump/Stokes wavelengths, the H15460-40's specified 300–740 nm range excludes direct SRS readout; a suitable near-infrared detector and modulation electronics are needed. See the [Hamamatsu product specification](https://www.hamamatsu.com/us/en/product/optical-sensors/pmt/pmt-module/voltage-output-type/H15460-40.html). For SRS detection practice, see [balanced-detection SRS microscopy](https://pmc.ncbi.nlm.nih.gov/articles/PMC5587718/).

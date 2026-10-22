@@ -1,0 +1,19 @@
+{
+  "overall_dimensions_mm": [
+    32.0,
+    22.0,
+    1.0000000000000357
+  ],
+  "slit_width_um": 200,
+  "slit_length_mm": 8,
+  "membrane_thickness_mm": 0.5,
+  "volume_mm3": 651.0073476133261,
+  "checks": [
+    "Valid single closed solid",
+    "Maximum thickness 1 mm",
+    "Measured 0.2 x 8 mm membrane opening",
+    "Unobstructed optical opening",
+    "STEP round-trip volume match",
+    "Closed STL mesh"
+  ]
+}

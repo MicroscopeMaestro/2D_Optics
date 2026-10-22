@@ -1,0 +1,72 @@
+{
+    "system_config": {
+        "primary_wavelength_um": 1.75
+    },
+    "surfaces": [
+        {
+            "name": "Input_Slit_30um",
+            "surface_type": "Object",
+            "thickness": 0.0
+        },
+        {
+            "name": "Thorlabs_SM1D12_Stop",
+            "surface_type": "Stop",
+            "thickness": 50.0,
+            "semi_diameter": 12.7
+        },
+        {
+            "name": "M1_CM254-050-P01_Collimator",
+            "surface_type": "Standard",
+            "radius": -100.0,
+            "thickness": 0.0,
+            "tilt_x": -20,
+            "semi_diameter": 12.7
+        },
+        {
+            "name": "Grating_100lpmm",
+            "surface_type": "Grating",
+            "thickness": 25.4,
+            "lines_per_um": 0.1,
+            "diffraction_order": 1,
+            "grating_primary_wavelength_um": 1.75,
+            "tilt_x": -45,
+            "semi_diameter": 12.7
+        },
+        {
+            "name": "M2_CM254-025-P01_Focusing",
+            "surface_type": "Standard",
+            "radius": -50.8,
+            "thickness": 25.4,
+            "semi_diameter": 12.7
+        },
+        {
+            "name": "DMD4500_Micromirrors",
+            "surface_type": "Standard",
+            "thickness": 200.0,
+            "tilt_x": -24.0,
+            "semi_diameter": 5.0
+        },
+        {
+            "name": "M3_CM254-200-P01_Relay_Collector",
+            "surface_type": "Standard",
+            "radius": -400.0,
+            "thickness": 0.0,
+            "tilt_x": -45,
+            "semi_diameter": 12.7
+        },
+        {
+            "name": "M4_CM254-025-P01_Focusing",
+            "surface_type": "Standard",
+            "radius": -50.8,
+            "thickness": 25.4,
+            "tilt_x": -15,
+            "semi_diameter": 12.7
+        },
+        {
+            "name": "Detector_0.8mm_IMA",
+            "surface_type": "Detector",
+            "thickness": 0.0,
+            "semi_diameter": 0.4
+        }
+    ]
+}
